@@ -1,0 +1,15 @@
+<div>
+  <div>
+    <h4>Insert the JSON Text in the following text area:</h4>
+    <textarea rows="15" cols="35" [(ngModel)]="inputTxt" [disabled]="showOutput">
+    </textarea>
+    <br>
+    <button (click)="onProcess()" *ngIf="!showOutput" [disabled]="disableProcessBtn()">Process</button>
+    <button (click)="onReset()" *ngIf="showOutput">Reset</button>
+  </div>
+  <div *ngIf="showOutput">
+    <h4>Result:</h4>
+    <textarea rows="20" cols="35" [(ngModel)]="outputTxt" [disabled]="true"></textarea>
+  </div>
+</div>
+
