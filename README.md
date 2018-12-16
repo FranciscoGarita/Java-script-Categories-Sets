@@ -77,5 +77,5 @@ This function was made to calculate the amount of empty spaces so the "COUNT" co
 ## disableProcessBtn:
 This function was made to make sure that there is some string to be processed
 
-#Environment File
+# Environment File
 In this file you will be able to add/remove categories (they must be separated by a single space) 
