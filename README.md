@@ -34,7 +34,9 @@ npm start
 
 5. Navigate to the following URL in order to see the application running:
 
+```
 http://localhost:4200/
+```
 
 6. Tests can be run with command below:
 
